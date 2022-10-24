@@ -1,8 +1,12 @@
-# equipoVan
+# Server Vanti
 
-##Install
+## Install
 ``npm install``
-##Create database
-``vanti``
-##envarioment
+## Create schema
+``create database vanti``
+## envarioment change to .env
 ``.env.example``
+## Start project
+``npm run start``
+## Run seeder
+``npx sequelize-cli db:seed:all``
